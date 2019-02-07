@@ -41,5 +41,6 @@ p, a{
     justify-content: center;
     align-items: center;
     font-size: 4em;
-    display: none;
+    display: flex;
+    opacity: 0;
 }

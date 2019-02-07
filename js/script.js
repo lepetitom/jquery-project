@@ -2,9 +2,11 @@ $(window).on("scroll",function(){
     let positionY = $(this).scrollTop();
     console.log(positionY)
 
-    if ($(window).height()) {
-        $("#scrollToTop").css("display","flex");
-        console.log("bouton")
+    if (positionY > 800){
+        $("#scrollToTop").css("opacity", 1);
+    }
+    if (positionY < 800){
+        $("#scrollToTop").css("opacity", 0);
     }
     // $(window).height() //
 })
