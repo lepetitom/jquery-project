@@ -28,3 +28,18 @@ p, a{
 .block:nth-child(even){
     background-color: darkcyan;
 }
+#scrollToTop{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    display: none;
+}
