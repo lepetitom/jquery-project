@@ -1,0 +1,30 @@
+body, *{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 50%
+}
+p, a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.block{
+    height: 300px;
+}
+.block:nth-child(odd){
+    background-color: lightblue
+}
+.block:nth-child(even){
+    background-color: darkcyan;
+}
